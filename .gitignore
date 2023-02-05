@@ -1,0 +1,9 @@
+*/Library/
+*/Logs/
+*/ProjectSettings/boot.config
+*/ProjectSettings/Editor*Settings.asset
+*/ProjectSettings/PackageManagerSettings.asset
+*/ProjectSettings/UnityConnectSettings.asset
+*/ProjectSettings/VersionControlSettings.asset
+*/Temp/
+*/UserSettings/
