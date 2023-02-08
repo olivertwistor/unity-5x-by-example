@@ -1,6 +1,9 @@
+*/Assets/EffectExamples*
 */Assets/StarterAssets*
+*/Builds/
 */Library/
 */Logs/
+*/obj/
 */ProjectSettings/boot.config
 */ProjectSettings/Editor*Settings.asset
 */ProjectSettings/PackageManagerSettings.asset
@@ -8,3 +11,6 @@
 */ProjectSettings/VersionControlSettings.asset
 */Temp/
 */UserSettings/
+*/*.csproj
+*/*.sln*
+*/**/.idea/
