@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ProxyDamage : MonoBehaviour
 {
-    public float DamagePerSecond = 10f;
+    public float DamagePerSecond = 100f;
 
     private void OnTriggerStay(Collider other)
     {
