@@ -219,6 +219,7 @@ GameObject:
   - component: {fileID: 474381327}
   - component: {fileID: 474381326}
   - component: {fileID: 474381328}
+  - component: {fileID: 474381329}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -307,6 +308,30 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &474381329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474381324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09d51b59755b94c50ab8e6988e3fd72d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  facing: 1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  feetCollider: {fileID: 474381326}
+  isGrounded: 0
+  horzAxis: Horizontal
+  jumpButton: Jump
+  maxSpeed: 30
+  jumpPower: 300
+  jumpTimeOut: 1
+  canControl: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,7 +431,7 @@ GameObject:
   - component: {fileID: 888180340}
   - component: {fileID: 888180342}
   - component: {fileID: 888180343}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: scene_terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -499,7 +524,11 @@ EdgeCollider2D:
   - {x: -5.12, y: -2.3380525}
   - {x: -3.6882834, y: -2.3573825}
   - {x: -3.4532192, y: -1.7257392}
-  - {x: -1.5080545, y: -1.7303472}
+  - {x: -1.7706126, y: -1.739792}
+  - {x: -1.6282204, y: -1.8779705}
+  - {x: -1.5009438, y: -2.0230803}
+  - {x: -1.3296368, y: -2.2056184}
+  - {x: -1.1443089, y: -2.327263}
   - {x: -0.939302, y: -2.422875}
   - {x: -0.6762681, y: -2.4343677}
   - {x: -0.58705467, y: -1.196698}
